@@ -9,9 +9,7 @@ function addRows(item) {
   for (var i = 0; i < fields.length; i++) {
     row.append("td").text(item[fields[i]]);
   }
-//  row.append("td").text(item['datetime']);
-//  row.append("td").text(item['city']);
-//  row.append("td").text(item['state']);
+
 }
 
 tableData.forEach(addRows);
